@@ -1,0 +1,522 @@
+﻿<div class="page_content">
+    {{ 'enhance.jquery.js' | asset_url | script_tag }}
+
+    <script type="text/javascript">
+        var waggo_maxprice = 0, waggo_minprice = 999999999;        
+        $(document).ready(function () {
+            //set up product image switch/zoom
+            $('.zoom-in').enhanceGallery();
+            waggo_product = {{product | json}};
+            //get product min and max price taking wholesale into consideration
+            var variants = waggo_product.variants;
+            for (i in variants){
+                if((waggo_is_wholesale && variants[i].option3.toLowerCase() =='wholesale') || (!waggo_is_wholesale && variants[i].option3.toLowerCase() =='you lucky dog!')){
+                    if (variants[i].price > waggo_maxprice) {waggo_maxprice = variants[i].price;}
+                    if (variants[i].price < waggo_minprice) {waggo_minprice = variants[i].price;}                    
+                }
+            }
+            //display prices
+            var price_string = '';
+            if (waggo_maxprice == waggo_minprice){
+                price_string = '$' + ((waggo_minprice/100).toFixed(2));
+            }else{
+                price_string = '$' + ((waggo_minprice/100).toFixed(2)) + ' - $' + ((waggo_maxprice/100).toFixed(2));
+            }
+            $('.productTopRight .price:eq(0)').html(price_string);
+            $('#product-select-option-0').trigger('change'); //trigger select change to ensure availability is set
+        });  
+    </script>
+
+    <div class="product">
+        <div class="productTop">
+            <div class="productTopLeft zoom-in">
+                <div id="active-wrapper">
+                    <img id="large-thumb" src="{{ product.featured_image | product_img_url: 'large' }}" alt="{{ product.featured_image.alt | escape }}" />
+                </div>
+                <div id="thumbs" class="productThumbs">
+                    {% for image in product.images %}
+                        <div class="thumb"><a class="gallery" href="{{ image | product_img_url: 'original' }}"><img src="{{ image | product_img_url: 'large' }}" alt="{{ image.alt | escape }}" /></a></div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="productTopRight">
+
+                <h1 class="BodoniEgyptianPro-Bold">{{ product.title }}</h1>
+                <div class="price BodoniEgyptianPro-Bold">
+                    {% comment %}
+                    {% if product.price_min != product.price_max %}
+                        {{ product.price_min | money }} - {{ product.price_max | money }}
+                    {% else %}
+                        {{ product.price | money }}
+                    {% endif %}  
+                    {% endcomment %}
+                </div>
+                <div class="section description">
+                    {{ product.description }}
+                </div>
+                <div class="section sizes">
+                    <div class="number">1</div>
+                    <div class="options">
+                    
+                    </div>
+                    <div class="sizingChartText">
+                        *Dog breeds vary widely. See our <a href="javascript:;;">sizing chart</a> for specific details                                
+
+                        <script type="text/javascript">
+                            var sizingChart = $('.sizingChart');
+
+                            $('.sizingChartText a').click(function () {
+                                var dialogOptions = { modal: true,
+                                    resizable: false,
+                                    minHeight: 110,
+                                    minWidth: 330
+                                }
+                                if ($('.sizingChart').hasClass('fourColumns')) {
+                                    dialogOptions.minWidth = 430;
+                                }
+                                sizingChart.dialog(dialogOptions);
+                            });
+                            $('.close-dialog').click(function () {
+                                sizingChart.dialog('close');
+                            });
+                            $('document').ready(function () {
+                                var sChart = $('.sizingChart'),
+		hRow = $('.headerRow'),
+		rows = $('.row');
+
+
+                                hRow.children('td').each(function (i) {
+                                    if (!$(this).hasClass('item')) $(this).addClass('item');
+                                    if (!$(this).hasClass('headerItem')) $(this).addClass('headerItem');
+                                });
+
+                                rows.each(function () {
+                                    switch ($(this).children('td').length) {
+                                        case 3:
+                                            if ($('.sizingChart').hasClass('fourColumns')) $('.sizingChart').removeClass('fourColumns');
+                                            $(this).children('td').each(function (index) {
+                                                if (!$(this).hasClass('item')) $(this).addClass('item');
+                                                switch (index) {
+                                                    case 0: if ($(this).hasClass('middle')) $(this).removeClass('middle'); break;
+                                                    case 1: if (!$(this).hasClass('middle')) $(this).addClass('middle'); break;
+                                                    case 2: if ($(this).hasClass('middle')) $(this).removeClass('middle'); break;
+                                                }
+                                            });
+                                            break;
+
+                                        case 4:
+                                            if (!$('.sizingChart').hasClass('fourColumns')) $('.sizingChart').addClass('fourColumns');
+                                            $(this).children('td').each(function (index) {
+                                                if (!$(this).hasClass('item')) $(this).addClass('item');
+                                                switch (index) {
+                                                    case 0: if ($(this).hasClass('middle')) $(this).removeClass('middle'); break;
+                                                    case 1: if (!$(this).hasClass('middle')) $(this).addClass('middle'); break;
+                                                    case 2: if (!$(this).hasClass('middle')) $(this).addClass('middle'); break;
+                                                    case 3: if ($(this).hasClass('middle')) $(this).removeClass('middle'); break;
+                                                }
+                                            });
+                                            break;
+
+                                        default: alert('Please reconfigure this item\'s sizing chart.'); break;
+                                    }
+
+
+                                });
+                            });
+                        </script>
+                    </div>
+                </div>
+                <div class="section pattern">
+                    <div class="number">2</div>
+                    <div class="options">
+
+                    </div>
+                </div>
+
+                <form action="/cart/add" method="post" class="variants" id="Form1">
+                    <div class="section quantity_and_price">
+                    <div class="number">
+                        {% if product.available %}
+                            3
+                        {% else %}
+                            1
+                        {% endif %}
+                    </div>
+                    <div class="quantity_and_price">
+                        {% if product.available %}
+                            <div class="quantity">
+                                <div class="selector-wrapper">
+                                    <label>Quantity</label>
+                                    <select id="quantity" name="quantity">
+                                        {% for i in (1..10) %}
+                                            <option value="{{ i }}">{{ i }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="price BodoniEgyptianPro-Bold">                            
+                                Total Price:
+                                <span>
+
+                                </span>
+                                <div class="hiddenPrice"></div>
+                            </div>
+                            <script type="text/javascript">
+                                //                                var price = {{ product.price }};
+
+                                //                                $(document).ready(function () {
+                                //                                    $('#quantity').change(function () {
+                                //                                        $('.price span').html('<strong>' + Shopify.formatMoney(variant.price * $(this).val(), "{{shop.money_format}}") + '</strong>');
+                                //                                    });
+                                //                                });
+                            </script>
+                        {% else %}
+                            <div class="price unavailable BodoniEgyptianPro-Bold">    
+                                <span>Unavailable</span>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+                    {% if product.available %}
+                    <div class="section add">
+                        <div class="number">4</div>                    
+                            <div class="options clearfix">  
+
+                              <div class="variants-wrapper clearfix {% if product.variants.size == 1 %}visuallyhidden{% endif %}"> 
+                                <select id="product-select" name="id">
+                                  {% for variant in product.variants %}
+                                    <option value="{{ variant.id }}">{{ variant.title | escape }} - {{ variant.price | money }}</option>
+                                  {% endfor %}
+                                </select>
+                              </div>            
+                
+                              <div id="purchase">                               
+                                <input class="BodoniEgyptianPro-Bold" type="submit" name="add" id="add-to-cart" value="Add to Cart" />
+                              </div>
+                        
+                            </div><!-- /.options -->
+                                        
+                    </div>
+                </form>      
+                {% else %}
+                    <!--<div id="product-actions" class="sold-out">
+                    <div id="purchase">
+                        <p class="price">Sold out.</p>      
+                    </div>
+                    </div> -->      
+                {% endif %}
+                {% if settings.show_tweet_button or settings.show_facebook_like or settings.show_pinterest_button %}
+                    <div class="social">
+                        {% if settings.show_tweet_button %}
+                        <div class="tweet">
+                            <a href="http://twitter.com/share" class="twitter-share-button" data-url="{{ shop.url }}{{ product.url }}" data-count="horizontal" {% if settings.twitter_account != "" %}data-via="{{ settings.twitter_account }}"{% endif %}>Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+                        </div>
+                        {% endif %}
+                        {% if settings.show_facebook_like %}
+                        {% include 'like' with product %}
+                        {% endif %}
+                        {% if settings.show_pinterest_button %}
+                        {% include 'pin' with product %}
+                        {% endif %}
+                        <script src="//svpply.com/api/all.js#xsvml=1" type="text/javascript"></script>
+<sv:product-button type="boxed"></sv:product-button>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+        <div class="productReviews">
+            <div class="gvproduct" data-id="{{ product.id}}"></div>
+        </div>
+        {% if settings.show_related_products %}
+            {% include 'related-products' %}
+        {% endif %}
+    </div>
+
+    {% if product.available %}
+      <script type="text/javascript">
+        $('#quantity').change(function () {
+            var newText = $('.hiddenPrice').text().replace('$', '') * $(this).val();
+            newText = newText.toFixed(2);
+
+            $('.price span').html("<strong>$" + newText + "</strong>");
+        });
+
+        var selectCallback = function(variant, selector) {
+          if (variant && variant.available) {
+            // selected a valid variant
+            $('#add-to-cart').removeClass('disabled').removeAttr('disabled'); // remove unavailable class from add-to-cart button, and re-enable button
+            
+            var variantPrice = Shopify.formatMoney(variant.price, "{{shop.money_format}}");
+            variantPrice = variantPrice.replace('$', '') * $('#quantity').val();
+            variantPrice = variantPrice.toFixed(2);
+            variantPrice = variantPrice.replace('.', '');
+
+            if(variant.compare_at_price == null){
+              $('.price span').html('<strong>'+Shopify.formatMoney(variantPrice, "{{shop.money_format}}")+'</strong>');
+              $('.hiddenPrice').text(Shopify.formatMoney(variant.price, "{{shop.money_format}}"));
+            } else {
+              $('.price span').html('<strong>'+Shopify.formatMoney(variantPrice, "{{shop.money_format}}") + '</strong> <span class="compare_at_price">was <del>' + Shopify.formatMoney(variant.compare_at_price, "{{shop.money_format}}") + '</del></span>');
+              $('.hiddenPrice').text(Shopify.formatMoney(variant.price, "{{shop.money_format}}"));
+            }
+          } else {
+            // variant doesn't exist
+            $('#add-to-cart').addClass('disabled').attr('disabled', 'disabled'); // set add-to-cart button to unavailable class and disable button
+            var message = variant ? "Sold Out" : "Unavailable";    
+            $('.price span').text(message); // update price-field message
+              $('.hiddenPrice').text("0");
+          }
+        };
+
+        // initialize multi selector for product
+        $(function() {
+          new Shopify.OptionSelectors("product-select", { product: {{ product | json }}, onVariantSelected: selectCallback });
+          {% assign found_one_in_stock = false %}
+          {% for variant in product.variants %}
+            {% if variant.available and found_one_in_stock == false %}
+              {% assign found_one_in_stock = true %}
+              {% for option in product.options %}
+              $('.single-option-selector:eq(' + {{ forloop.index0 }} + ')').val({{ variant.options[forloop.index0] | json }}).trigger('change');
+              {% endfor %}
+            {% endif %}
+          {% endfor %}  
+          if (waggo_is_wholesale){
+          //set wholesale selector
+              $('.single-option-selector:eq(2)').val('true').trigger('change');
+          }
+        });
+
+        /*
+        //custom variant selection
+        
+        var sizes = $('.sizes');
+        var patterns = $('.pattern');
+
+        $(document).ready(function () {
+            var singleVariantSelectors = $('.single-option-selector');
+            var numOfVariants = singleVariantSelectors.length;
+
+            switch (numOfVariants) {
+                case 1: //at least one variant - either size or pattern, or no variants (shopify generates one even with no variants....)
+                    singleVariantSelectors.children().each(function () {
+                        var j = 0;
+
+                        var thisValue = $(this).val();
+
+                        if(thisValue == "X-Small" || thisValue == "Small" || thisValue == "Medium" || thisValue == "Large") { //this is a size variant
+                            sizes.show();
+
+                            buildSizeOptions(singleVariantSelectors, $(this).parent(), j);
+
+                            //adjust numbering
+                            $('.quantity_and_price .number').html("2"); 
+                            $('.add .number').html("3"); 
+                        
+                            return false;
+                        } else if (thisValue == "Default Title") { //no variants
+                            //adjust numbering
+                            $('.quantity_and_price .number').html("1"); 
+                            $('.add .number').html("2");             
+                        } else { //this is a pattern variant
+                            patterns.show();
+
+                            buildPatternOptions(singleVariantSelectors, $(this).parent(), j);
+                        
+                            //adjust numbering 
+                            patterns.children(".number").html("1");
+                            $('.quantity_and_price .number').html("2"); 
+                            $('.add .number').html("3"); 
+
+                            return false;
+                        }
+                    });
+                            
+
+                    break;
+
+                default: //two variants - size and pattern
+                    //show sizes & patterns areas
+                    sizes.show();
+                    patterns.show();
+
+                    var i = 1;
+
+                    singleVariantSelectors.each(function () { //loop through variant select elements
+                        //get options available for variant
+                        var j = 0;
+                        var thisSingleVariantSelector = $(this);
+
+                        if (i == 1) { //sizes
+                            buildSizeOptions(singleVariantSelectors, thisSingleVariantSelector , j);
+                        }if(i == 2){
+                         //patterns
+                            buildPatternOptions(singleVariantSelectors, thisSingleVariantSelector, j);
+                        }
+
+                        i++;
+                    });     
+            }
+        });*/
+
+        var sizes = $('.sizes');
+var patterns = $('.pattern');
+
+$(document).ready(function () {
+   var singleVariantSelectors = $('#product-select-option-0,#product-select-option-1,#product-select-option-2');
+             //show sizes & patterns areas
+            sizes.show();
+            patterns.show();
+            var i = 1;
+            singleVariantSelectors.each(function () { //loop through variant select elements
+                //get options available for variant
+                var j = 0;
+                var thisSingleVariantSelector = $(this);
+
+                if (i == 1) { //sizes
+                    buildSizeOptions(singleVariantSelectors, thisSingleVariantSelector, j);
+                } if (i == 2) {
+                    //patterns
+                    buildPatternOptions(singleVariantSelectors, thisSingleVariantSelector, j);
+                }
+
+                i++;
+            });
+});
+
+        function buildPatternOptions(singleVariantSelectors, thisSingleVariantSelector, j) {
+            var patternsOptions = patterns.children(".options");
+            var assetURL = "{{ '' | asset_url }}";
+
+            thisSingleVariantSelector.children().each(function () { //loop through pattern options
+                var thisValue = $(this).val();
+                var patternID = adjustPatternValue(thisValue);
+
+                //create divs for pattern options
+                var imgStrSplitVal = assetURL.indexOf('?');
+                var imgURL = assetURL.slice(0, imgStrSplitVal) + patternID.toLowerCase() + '.jpg' + assetURL.slice(imgStrSplitVal);
+
+                var HTMLToAppend = "<div id=\"" + patternID + "\" class=\"option";
+                            
+                if (j == 0) {
+                    HTMLToAppend += " on";
+                }
+                            
+                HTMLToAppend += "\" style=\"background: url(" + imgURL + ") no-repeat center 0px;\">" + thisValue + "</div>";
+
+                //append options html to options element
+                patternsOptions.append(HTMLToAppend);
+
+                j++;
+            });
+
+            /////////////////////////////////////////////////////
+            /////bind click event for custom pattern options/////
+            /////////////////////////////////////////////////////
+                
+            //get pattern options
+            var patternOptions = $('.pattern .option');
+                
+            patternOptions.click(function () {
+                var selectedID = adjustPatternValue($(this).attr('id'));
+
+                //adjust highlighting
+                patternOptions.removeClass('on');
+                $(this).addClass('on');
+
+                singleVariantSelectors.eq(1).children().each(function () {
+                    if ($(this).val() == selectedID) {
+                        $(this).attr('selected', true);
+
+                        return false;
+                    }
+                }).trigger('change');
+            });        
+        }
+
+        function buildSizeOptions(singleVariantSelectors, thisSingleVariantSelector,  j) {
+            var sizesOptions = sizes.children(".options");
+
+            thisSingleVariantSelector.children().each(function () { //loop through size options
+                var thisValue = $(this).val();
+                var thisWeight = "<br />"
+
+                switch(thisValue) {
+                    case 'X-Small':
+                        thisWeight = "Up to 20lbs.";
+
+                        break;
+                    case 'Small':
+                        thisWeight = "Up to 20lbs.";
+
+                        break;
+                    case 'Medium':
+                        thisWeight = "Up to 20-60lbs.";
+
+                        break;
+                    case 'Large':
+                        thisWeight = "Up to 60-80lbs.";
+
+                        break;
+                }
+
+                //create divs for size options
+                var HTMLToAppend = '<div id="' + thisValue + '" class="option ' + thisValue.toLowerCase(); 
+                            
+                if (j == 0) {
+                    HTMLToAppend += ' on';
+                }
+
+                HTMLToAppend +=    '">' +
+                                        '<div>' + thisValue.toUpperCase() /*+ '<br />' + thisWeight*/ + '</div>' +
+                                    '</div>';
+//Commented out above is to remove dog weights from size options
+
+                sizesOptions.append(HTMLToAppend);
+                j++;
+            });
+
+            //////////////////////////////////////////////////
+            /////bind click event for custom size options/////
+            //////////////////////////////////////////////////
+
+            //get size options
+            var sizeOptions = $('.sizes .option');
+
+            sizeOptions.click(function () {
+                //get selected id
+                var selectedID = $(this).attr('id');
+
+                //adjust highlighting
+                sizeOptions.removeClass('on');
+                $(this).addClass('on');
+
+                //select appropriate size from hidden select menu
+                singleVariantSelectors.first().children().each(function () {
+                    if ($(this).val() == selectedID) {
+                        $(this).attr('selected', true);
+
+                        return false;
+                    }
+                }).trigger('change');
+            });   
+        }
+
+        function adjustPatternValue(patternValue) {
+            if (patternValue.indexOf('_') != -1) { //convert to value
+                patternValue = patternValue.replace(/_/gi, ' ');
+            } else { //convert to image name/id
+                patternValue = patternValue.replace(/ /gi, '_');
+            }
+
+            return patternValue;
+        }
+        </script>
+        {% endif %}
+
+        {{ 'reviews.js' | asset_url | script_tag }}
+
+</div>
+<div id="quickbuy" style="display:none;">
+    <span class="quickbuy-message"></span>
+    <a href="javascript:;;" class="btn btn-return-to-browsing">Return to Browsing</a>
+    <a href="/cart" class="btn btn-continue-to-cart">Continue to Cart</a>
+</div>

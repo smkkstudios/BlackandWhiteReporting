@@ -1,0 +1,24 @@
+﻿/*Hero*/
+#hero_wrapper{background:#000 url(images/services/header.jpg) no-repeat center top;height:233px; width:100%; position:relative;margin-bottom:50px;}
+#hero_title_container{height:43px; width:100%; background:transparent url(images/pagetitle_grad.png) repeat-x scroll 0 0;position:absolute; bottom:0px; left:0px;}
+.hero_title{width:960px; margin:0 auto;}
+.hero_title h1{margin:0; padding:0;color:#fff; font-size:37px; font-weight:700;}
+
+
+/*Content*/
+.ContentPane_holder{float:right; width:550px;}
+.ContentPane_holder h1{font-size:24px; font-weight:700;color:#00bdc8;margin: 0 0 20px 0; padding-left:10px;}
+.ContentPane_holder ul{float:left;width:250px;padding-left:25px;}
+.ContentPane_holder li{font-size:15px;color:#fff; list-style:url(images/bullet.png);}
+.ContentPane_holder li.heading{color:#00bdc8;list-style:none;font-weight:600;margin-left:-12px;}
+.ContentPane_holder .spacer{height:25px; width:100%;}
+
+
+/*CTA*/
+.cta{float:left; width:325px;}
+.cta h1{font-size:34px;font-weight:700; margin:0;color:#00bdc8;}
+.cta h3{font-size:20px; font-weight:600; color:#fff;}
+.cta p{font-size:15px; margin:25px 0;font-weight:500; color:#fff;}
+.cta .Normal a{display:block; height:85px; width:287px;overflow:hidden;position:relative;}
+.cta .Normal  a .svgimg{position:absolute; top:-20px; left:0px;}
+.cta .Normal  a:hover .svgimg{top:-146px;}

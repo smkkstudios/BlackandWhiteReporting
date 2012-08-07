@@ -1,0 +1,164 @@
+2011-11-07 09:07:01,043 [Scott-Vostro][Thread:10][ERROR] DotNetNuke.Common.Utilities.FileSystemUtils - Access to the path 'C:\repositories\SKP\Web\Portals\0\Cache\Pages\84_ACABA51644A302FBB325E30E7931BAF8.data.resources' is denied.
+System.UnauthorizedAccessException: Access to the path 'C:\repositories\SKP\Web\Portals\0\Cache\Pages\84_ACABA51644A302FBB325E30E7931BAF8.data.resources' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at DotNetNuke.Common.Utilities.FileSystemUtils.DeleteFileWithWait(String filename, Int16 waitInMilliseconds, Int16 maxAttempts)
+2011-11-07 13:13:17,156 [Scott-Vostro][Thread:5][ERROR] DotNetNuke.Common.Utilities.FileSystemUtils - The process cannot access the file 'C:\repositories\SKP\Web\Portals\0\Cache\Pages\82_ACABA51644A302FBB325E30E7931BAF8.data.resources' because it is being used by another process.
+System.IO.IOException: The process cannot access the file 'C:\repositories\SKP\Web\Portals\0\Cache\Pages\82_ACABA51644A302FBB325E30E7931BAF8.data.resources' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at DotNetNuke.Common.Utilities.FileSystemUtils.DeleteFileWithWait(String filename, Int16 waitInMilliseconds, Int16 maxAttempts)
+2011-11-07 14:04:51,577 [SJMDesign-PC2][Thread:5][FATAL] DotNetNuke.Common.DotNetNukeHttpApplication - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status()
+   at DotNetNuke.Common.Initialize.CheckVersion(HttpApplication app)
+   at DotNetNuke.Common.Initialize.InitializeApp(HttpApplication app)
+   at DotNetNuke.Common.Initialize.Init(HttpApplication app)
+   at DotNetNuke.Common.DotNetNukeHttpApplication.Application_BeginRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2011-11-07 14:05:21,948 [SJMDesign-PC2][Thread:6][ERROR] DotNetNuke.Common.Initialize - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status()
+   at DotNetNuke.Services.Log.EventLog.LogController.AddLog(LogInfo logInfo)
+   at DotNetNuke.Common.Initialize.LogEnd()
+2011-11-07 14:05:22,013 [SJMDesign-PC2][Thread:6][ERROR] DotNetNuke.Services.Exceptions.BasePortalException - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Exceptions.BasePortalException.InitializePrivateVariables()
+2011-11-07 14:05:26,718 [SJMDesign-PC2][Thread:5][FATAL] DotNetNuke.Common.DotNetNukeHttpApplication - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status()
+   at DotNetNuke.Common.Initialize.CheckVersion(HttpApplication app)
+   at DotNetNuke.Common.Initialize.InitializeApp(HttpApplication app)
+   at DotNetNuke.Common.Initialize.Init(HttpApplication app)
+   at DotNetNuke.Common.DotNetNukeHttpApplication.Application_BeginRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2011-11-07 14:07:52,662 [SJMDesign-PC2][Thread:11][ERROR] DotNetNuke.Common.Initialize - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status()
+   at DotNetNuke.Services.Log.EventLog.LogController.AddLog(LogInfo logInfo)
+   at DotNetNuke.Common.Initialize.LogEnd()
+2011-11-07 14:23:47,180 [SJMDesign-PC2][Thread:26][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.CheckShowPath(Int32 tabId, RadPanelItem panelItemToCheck, String pageName)
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.BuildPanelbar(RadPanelItemCollection rootCollection)
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-11-07 14:23:47,241 [SJMDesign-PC2][Thread:26][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=77&error=Object+reference+not+set+to+an+instance+of+an+object.&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.CheckShowPath(Int32 tabId, RadPanelItem panelItemToCheck, String pageName)
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.BuildPanelbar(RadPanelItemCollection rootCollection)
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-11-07 14:23:47,438 [SJMDesign-PC2][Thread:23][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.CheckShowPath(Int32 tabId, RadPanelItem panelItemToCheck, String pageName)
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.BuildPanelbar(RadPanelItemCollection rootCollection)
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-11-07 14:23:47,439 [SJMDesign-PC2][Thread:23][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=77&error=terminate
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.CheckShowPath(Int32 tabId, RadPanelItem panelItemToCheck, String pageName)
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.BuildPanelbar(RadPanelItemCollection rootCollection)
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-11-07 14:23:47,508 [SJMDesign-PC2][Thread:23][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - Object reference not set to an instance of an object.
+DotNetNuke.Services.Exceptions.PageLoadException: Object reference not set to an instance of an object. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.CheckShowPath(Int32 tabId, RadPanelItem panelItemToCheck, String pageName)
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.BuildPanelbar(RadPanelItemCollection rootCollection)
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2011-11-07 14:24:21,935 [SJMDesign-PC2][Thread:23][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.CheckShowPath(Int32 tabId, RadPanelItem panelItemToCheck, String pageName)
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.BuildPanelbar(RadPanelItemCollection rootCollection)
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-11-07 14:24:21,936 [SJMDesign-PC2][Thread:23][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=77&error=terminate
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.CheckShowPath(Int32 tabId, RadPanelItem panelItemToCheck, String pageName)
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.BuildPanelbar(RadPanelItemCollection rootCollection)
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-11-07 14:24:21,960 [SJMDesign-PC2][Thread:23][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - Object reference not set to an instance of an object.
+DotNetNuke.Services.Exceptions.PageLoadException: Object reference not set to an instance of an object. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.CheckShowPath(Int32 tabId, RadPanelItem panelItemToCheck, String pageName)
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.BuildPanelbar(RadPanelItemCollection rootCollection)
+   at DotNetNuke.UI.Skins.Controls.LeftMenu.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2011-11-07 14:34:30,208 [SJMDesign-PC2][Thread:9][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'SMaKK_LeftMenu': System.InvalidOperationException: Stack empty.
+   at System.Collections.Generic.Stack`1.Pop()
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TokenTemplateProcessor.LoadDefinition(TemplateDefinition definition)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2011-11-07 14:34:30,250 [SJMDesign-PC2][Thread:9][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2011-11-07 14:34:40,537 [SJMDesign-PC2][Thread:17][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'SMaKK_LeftMenu': System.InvalidOperationException: Stack empty.
+   at System.Collections.Generic.Stack`1.Pop()
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TokenTemplateProcessor.LoadDefinition(TemplateDefinition definition)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2011-11-07 14:34:40,557 [SJMDesign-PC2][Thread:17][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2011-11-07 14:46:32,976 [SJMDesign-PC2][Thread:39][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'SMaKK_LeftMenu': System.InvalidOperationException: Stack empty.
+   at System.Collections.Generic.Stack`1.Pop()
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TokenTemplateProcessor.LoadDefinition(TemplateDefinition definition)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2011-11-07 14:46:32,996 [SJMDesign-PC2][Thread:39][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"

@@ -1,0 +1,17 @@
+﻿/*Hero*/
+#hero_wrapper{background:#000 url(images/about/header.jpg) no-repeat center top;height:233px; width:100%; position:relative;margin-bottom:50px;}
+#hero_title_container{height:43px; width:100%; background:transparent url(images/pagetitle_grad.png) repeat-x scroll 0 0;position:absolute; bottom:0px; left:0px;}
+.hero_title{width:960px; margin:0 auto;}
+.hero_title h1{margin:0; padding:0;color:#fff; font-size:37px; font-weight:700;}
+
+
+/*Content*/
+.ContentPane h1{font-size:37px; font-weight:700;color:#00bdc8;margin:50px 0 20px 0;}
+.ContentPane h3{font-size:20px; font-weight:500;color:#00bdc8;margin-bottom:20px;}
+.ContentPane p{font-size:16px; font-weight:500;color:#fff;margin-bottom:20px;}
+
+/*CTA*/
+.cta h1{text-align:center;font-size:30px; margin:50px 0 0;color:#fff;}
+.cta .Normal a{display:block; height:85px; width:287px;overflow:hidden;position:relative;margin:0 auto;}
+.cta .Normal  a .svgimg{position:absolute; top:-20px; left:0px;}
+.cta .Normal  a:hover .svgimg{top:-146px;}

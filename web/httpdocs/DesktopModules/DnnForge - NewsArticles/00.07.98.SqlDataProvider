@@ -1,0 +1,5 @@
+﻿CREATE NONCLUSTERED INDEX [_dta_index_{objectQualifier}DnnForge_NewsArticles_Articl_5_160719625__K2] ON {databaseOwner}{objectQualifier}DnnForge_NewsArticles_ArticleCategories 
+(
+	[CategoryID] ASC
+)WITH (SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, DROP_EXISTING = OFF, ONLINE = OFF) ON [PRIMARY]
+GO

@@ -1,0 +1,46 @@
+/*Flexible Layouts*/
+    /*common*/
+    .smakk-container {margin-bottom:60px;}
+    .smakk-container .Normal ul {
+       position:relative;
+       z-index:1;
+       padding:40px 40px 25px;
+       border:1px solid #dfdfdf;
+       background:#f1f2f2;
+       margin-right:30px;
+       
+    }
+   .smakk-container .Normal h2, .smakk-container .Normal h3{color:#155924;}
+    .smakk-container .Normal ul li {list-style-type:disc; padding-left:20px; margin-bottom:15px; list-style-position:outside;}
+    .smakk-container .Normal ul:before 
+    {
+        content:"";
+        position:absolute;
+        z-index:-1;
+        top:10px;
+        left:12px;
+        right:12px;
+        bottom:10px;
+        border:1px solid #e1e1e1;
+        background:#fafafa;
+    }
+    .smakk-container .Normal ul ul{padding:0; border:none; background:transparent; margin-top:5px; margin-bottom:10px;}
+    .smakk-container .Normal ul ul:before {border:none; background:transparent;}
+    .smakk-container .Normal ul ul li {
+        font-size: 85%;
+        font-style: italic;
+        list-style-position: inside;
+        list-style-type: circle;
+        margin-bottom: 5px;
+        padding-left: 5px;
+    }
+
+    .smakk-container .Normal p, .smakk-container .Normal ul, .smakk-container .Normal blockquote {margin-bottom:15px;}
+    .smakk-container .Normal em {font-style:italic;font-family:museo, Sans-Serif; font-size:15px; font-weight:300; 
+                                    color:#145923; margin-right:0; margin-left:0;}
+                                    
+    #smakk-content .smakk-container .Normal em a {font-weight:bold;}                                   
+    
+    
+    
+       

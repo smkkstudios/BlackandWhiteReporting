@@ -1,0 +1,20 @@
+﻿<LicenceKey version="1.4">
+    <licenceType>Five</licenceType>
+    <product versionMajor="2" versionMinor="0">iFinity.UrlMaster</product>
+    <customerInfo>
+        <customerName>Scott Monaghan</customerName>
+        <customerEmail>scott@smkkstudios.com</customerEmail>
+    </customerInfo>
+    <expiryDate>9999-12-31</expiryDate>
+    <hostGuid>
+    </hostGuid>
+    <registeredDomains>
+        <siteDomains>
+            <mainDomain domainName="blog.waggo.com" domainType="Full">
+                <subDomain subDomainName="www" />
+            </mainDomain>
+        </siteDomains>
+    </registeredDomains>
+    <key>xeMIKNCn7NYTjQZ2XEjvoFpfF4uJTz3DY39/1c3G4MuRltRjG2m+WcdVHbNZ5aSzyuZtesKm+pIOkH1Z0eD8Rw==</key>
+    <key2>NC8RnmkMhTdl0UN/daNxtp4jPY9K0k+7XVId3JZBg+/UwSkYj0KzIT+zkeunLjcT3T1uGF2QIT1pAP5sdmlGlw==</key2>
+</LicenceKey>

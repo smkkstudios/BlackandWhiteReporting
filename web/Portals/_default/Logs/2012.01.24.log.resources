@@ -1,0 +1,1687 @@
+2012-01-24 12:04:44,847 [SJMDesign-PC2][Thread:4][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:04:45,350 [SJMDesign-PC2][Thread:4][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:04:45,482 [SJMDesign-PC2][Thread:4][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:04:45,507 [SJMDesign-PC2][Thread:4][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:04:46,799 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:04:46,830 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:04:46,834 [SJMDesign-PC2][Thread:5][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:04:46,844 [SJMDesign-PC2][Thread:4][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:04:46,849 [SJMDesign-PC2][Thread:4][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:04:46,854 [SJMDesign-PC2][Thread:4][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:04:46,870 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:04:46,871 [SJMDesign-PC2][Thread:4][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:04:46,877 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:04:46,879 [SJMDesign-PC2][Thread:4][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:04:46,883 [SJMDesign-PC2][Thread:5][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:04:46,884 [SJMDesign-PC2][Thread:4][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:04:46,943 [SJMDesign-PC2][Thread:9][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:04:46,948 [SJMDesign-PC2][Thread:9][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:04:46,952 [SJMDesign-PC2][Thread:9][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:06:35,427 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:06:35,452 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:06:35,456 [SJMDesign-PC2][Thread:5][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:06:40,364 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:06:40,370 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:06:40,376 [SJMDesign-PC2][Thread:5][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:06:49,666 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:06:49,671 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:06:49,676 [SJMDesign-PC2][Thread:5][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:07:06,480 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:07:06,485 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:07:06,490 [SJMDesign-PC2][Thread:5][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:07:12,176 [SJMDesign-PC2][Thread:4][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:07:12,182 [SJMDesign-PC2][Thread:4][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:07:12,186 [SJMDesign-PC2][Thread:4][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:07:54,341 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:07:54,347 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:07:54,351 [SJMDesign-PC2][Thread:5][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:08:10,311 [SJMDesign-PC2][Thread:9][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:08:10,318 [SJMDesign-PC2][Thread:9][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:08:10,324 [SJMDesign-PC2][Thread:9][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:11:04,701 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:11:04,706 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:11:04,711 [SJMDesign-PC2][Thread:5][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:11:08,985 [SJMDesign-PC2][Thread:9][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:11:08,991 [SJMDesign-PC2][Thread:9][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:11:08,996 [SJMDesign-PC2][Thread:9][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:11:53,481 [SJMDesign-PC2][Thread:9][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:11:53,613 [SJMDesign-PC2][Thread:9][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:11:53,652 [SJMDesign-PC2][Thread:9][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:11:53,667 [SJMDesign-PC2][Thread:9][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:13:14,807 [SJMDesign-PC2][Thread:9][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:13:14,945 [SJMDesign-PC2][Thread:9][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:13:14,984 [SJMDesign-PC2][Thread:9][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:13:15,000 [SJMDesign-PC2][Thread:9][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:13:58,892 [SJMDesign-PC2][Thread:9][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:13:59,030 [SJMDesign-PC2][Thread:9][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:13:59,076 [SJMDesign-PC2][Thread:9][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:13:59,093 [SJMDesign-PC2][Thread:9][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:15:01,592 [SJMDesign-PC2][Thread:9][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:15:01,598 [SJMDesign-PC2][Thread:9][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:15:01,604 [SJMDesign-PC2][Thread:9][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:15:35,504 [SJMDesign-PC2][Thread:9][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:15:35,509 [SJMDesign-PC2][Thread:9][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:15:35,513 [SJMDesign-PC2][Thread:9][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:15:39,849 [SJMDesign-PC2][Thread:4][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:15:39,854 [SJMDesign-PC2][Thread:4][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:15:39,860 [SJMDesign-PC2][Thread:4][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\Nschicklaw'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:15:48,643 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:15:48,842 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:15:48,882 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:15:48,898 [SJMDesign-PC2][Thread:5][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:16:29,032 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:16:29,037 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:16:29,041 [SJMDesign-PC2][Thread:5][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:16:32,875 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:16:32,882 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:16:32,886 [SJMDesign-PC2][Thread:5][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:16:32,898 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter, Object[] parameterValues)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddHostSetting(String SettingName, String SettingValue, Boolean SettingIsSecure, Int32 CreatedByUserID)
+   at DotNetNuke.Entities.Controllers.HostController.Update(ConfigurationSetting config, Boolean clearCache)
+2012-01-24 12:16:32,902 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Entities.Controllers.HostController - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetHostSettings()
+   at DotNetNuke.Entities.Controllers.HostController.GetSettingsDictionaryCallBack(CacheItemArgs cacheItemArgs)
+2012-01-24 12:16:32,906 [SJMDesign-PC2][Thread:5][ERROR] iFinity.DNN.Modules.UrlMaster.UrlRewriteModule - Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nschicklaw" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\NETWORK SERVICE'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.GetPortals()
+   at DotNetNuke.Entities.Portals.PortalController.GetPortals()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.ParseChosenPortalAliases()
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings.InitSettings(String name, String type, Boolean isCurrentProvider, NameValueCollection attributes)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettings..ctor(Provider provider, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.Entities.FriendlyUrlSettingsCol..ctor(Provider provider, XmlNodeList providerPortals, Boolean isCurrentProvider)
+   at iFinity.DNN.Modules.UrlMaster.FriendlyUrlSettingsController.GetFriendlyUrlProviderSettings(String providerName, Boolean urlMasterSettingsOnly, FriendlyUrlSettingsCol& settingsCol)
+   at iFinity.DNN.Modules.UrlMaster.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+2012-01-24 12:20:44,935 [SJMDesign-PC2][Thread:13][ERROR] DotNetNuke.Services.ModuleCache.FileProvider - The process cannot access the file 'C:\Nschicklaw.com\Web\Portals\0\Cache\Pages\222_ACABA51644A302FBB325E30E7931BAF8.data.resources' because it is being used by another process.
+System.IO.IOException: The process cannot access the file 'C:\Nschicklaw.com\Web\Portals\0\Cache\Pages\222_ACABA51644A302FBB325E30E7931BAF8.data.resources' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.WriteAllBytes(String path, Byte[] bytes)
+   at DotNetNuke.Services.ModuleCache.FileProvider.SetModule(Int32 tabModuleId, String cacheKey, TimeSpan duration, Byte[] output)
+2012-01-24 14:28:40,345 [SJMDesign-PC2][Thread:10][FATAL] DotNetNuke.Common.DotNetNukeHttpApplication - System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-24 14:28:42,202 [SJMDesign-PC2][Thread:10][FATAL] DotNetNuke.Common.DotNetNukeHttpApplication - System.Web.HttpException: File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-24 14:55:07,149 [SJMDesign-PC2][Thread:33][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2012-01-24 14:55:09,179 [SJMDesign-PC2][Thread:33][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+DotNetNuke.Services.Exceptions.PageLoadException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk..."). ---> System.Web.HttpRequestValidationException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2012-01-24 14:56:06,499 [SJMDesign-PC2][Thread:31][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2012-01-24 14:56:06,726 [SJMDesign-PC2][Thread:31][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+DotNetNuke.Services.Exceptions.PageLoadException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk..."). ---> System.Web.HttpRequestValidationException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2012-01-24 14:56:32,704 [SJMDesign-PC2][Thread:33][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2012-01-24 14:56:32,869 [SJMDesign-PC2][Thread:33][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+DotNetNuke.Services.Exceptions.PageLoadException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk..."). ---> System.Web.HttpRequestValidationException: A potentially dangerous Request.Form value was detected from the client (dnn$cp$RibbonBar$EditPage$SkinLst="<Use Default Site Sk...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2012-01-24 14:58:06,743 [SJMDesign-PC2][Thread:45][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'DNNStandard': System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2012-01-24 14:58:07,627 [SJMDesign-PC2][Thread:45][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2012-01-24 14:58:35,092 [SJMDesign-PC2][Thread:45][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'DNNStandard': System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2012-01-24 14:58:35,940 [SJMDesign-PC2][Thread:45][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2012-01-24 14:58:49,830 [SJMDesign-PC2][Thread:28][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'DNNStandard': System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2012-01-24 14:58:51,130 [SJMDesign-PC2][Thread:28][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2012-01-24 14:59:05,305 [SJMDesign-PC2][Thread:42][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'DNNStandard': System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2012-01-24 14:59:06,473 [SJMDesign-PC2][Thread:42][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2012-01-24 14:59:24,765 [SJMDesign-PC2][Thread:13][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'DNNStandard': System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2012-01-24 14:59:26,167 [SJMDesign-PC2][Thread:13][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2012-01-24 14:59:38,071 [SJMDesign-PC2][Thread:33][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'DNNStandard': System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2012-01-24 14:59:38,930 [SJMDesign-PC2][Thread:33][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2012-01-24 14:59:58,323 [SJMDesign-PC2][Thread:17][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'DNNStandard': System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2012-01-24 14:59:59,558 [SJMDesign-PC2][Thread:17][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2012-01-24 15:00:22,704 [SJMDesign-PC2][Thread:32][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'DNNStandard': System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2012-01-24 15:00:24,400 [SJMDesign-PC2][Thread:32][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2012-01-24 15:01:01,813 [SJMDesign-PC2][Thread:32][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'DNNStandard': System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2012-01-24 15:01:02,867 [SJMDesign-PC2][Thread:32][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2012-01-24 15:01:20,956 [SJMDesign-PC2][Thread:17][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'DNNStandard': System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2012-01-24 15:01:22,044 [SJMDesign-PC2][Thread:17][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2012-01-24 15:17:47,852 [SJMDesign-PC2][Thread:6][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'DNNStandard': System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2012-01-24 15:17:47,941 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'DNNStandard': System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2012-01-24 15:17:48,303 [SJMDesign-PC2][Thread:6][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2012-01-24 15:17:48,309 [SJMDesign-PC2][Thread:5][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2012-01-24 15:19:35,006 [SJMDesign-PC2][Thread:10][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'DNNStandard': System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2012-01-24 15:19:35,971 [SJMDesign-PC2][Thread:10][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2012-01-24 15:20:17,266 [SJMDesign-PC2][Thread:12][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'DNNStandard': System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2012-01-24 15:20:18,045 [SJMDesign-PC2][Thread:12][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2012-01-24 15:22:52,267 [SJMDesign-PC2][Thread:30][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'DNNStandard': System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2012-01-24 15:22:53,023 [SJMDesign-PC2][Thread:30][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2012-01-24 15:27:45,435 [SJMDesign-PC2][Thread:33][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'DNNStandard': System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2012-01-24 15:27:46,370 [SJMDesign-PC2][Thread:33][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2012-01-24 15:30:59,758 [SJMDesign-PC2][Thread:32][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'DNNStandard': System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2012-01-24 15:31:00,522 [SJMDesign-PC2][Thread:32][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2012-01-24 15:35:28,179 [SJMDesign-PC2][Thread:59][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'DNNStandard': System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2012-01-24 15:35:29,265 [SJMDesign-PC2][Thread:59][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2012-01-24 15:40:21,621 [SJMDesign-PC2][Thread:17][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'DNNStandard': System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2012-01-24 15:40:22,474 [SJMDesign-PC2][Thread:17][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2012-01-24 15:47:37,909 [SJMDesign-PC2][Thread:36][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'DNNStandard': System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2012-01-24 15:47:38,705 [SJMDesign-PC2][Thread:36][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2012-01-24 15:49:06,999 [SJMDesign-PC2][Thread:23][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'DNNStandard': System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2012-01-24 15:49:07,811 [SJMDesign-PC2][Thread:23][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2012-01-24 15:51:30,505 [SJMDesign-PC2][Thread:36][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'DNNStandard': System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2012-01-24 15:51:33,951 [SJMDesign-PC2][Thread:36][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2012-01-24 15:56:09,839 [SJMDesign-PC2][Thread:35][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.ApplicationException: Couldn't load menu style 'DNNStandard': System.ArgumentException: Illegal characters in path.
+   at System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at DotNetNuke.Web.DDRMenu.TemplateEngine.TemplateDefinition.FromManifest(String manifestUrl)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.MenuBase.Instantiate(String menuStyle)
+   at DotNetNuke.Web.DDRMenu.SkinObject.OnPreRender(EventArgs e)"
+2012-01-24 15:56:10,712 [SJMDesign-PC2][Thread:35][ERROR] DotNetNuke.Web.DDRMenu.SkinObject - FriendlyMessage="An error has occurred." ctrl="ASP.desktopmodules_ddrmenu_menu_ascx" exc="System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.DDRMenu.SkinObject.Render(HtmlTextWriter writer)"
+2012-01-24 15:58:38,026 [SJMDesign-PC2][Thread:35][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): Failed to load viewstate.  The control tree into which viewstate is being loaded must match the control tree that was used to save viewstate during the previous request.  For example, when adding controls dynamically, the controls added during a post-back must match the type and position of the controls added during the initial request.
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2012-01-24 15:58:38,282 [SJMDesign-PC2][Thread:35][ERROR] DotNetNuke.Services.Exceptions.ErrorPage - Failed to load viewstate.  The control tree into which viewstate is being loaded must match the control tree that was used to save viewstate during the previous request.  For example, when adding controls dynamically, the controls added during a post-back must match the type and position of the controls added during the initial request.
+DotNetNuke.Services.Exceptions.PageLoadException: Failed to load viewstate.  The control tree into which viewstate is being loaded must match the control tree that was used to save viewstate during the previous request.  For example, when adding controls dynamically, the controls added during a post-back must match the type and position of the controls added during the initial request. ---> System.Web.HttpException: Failed to load viewstate.  The control tree into which viewstate is being loaded must match the control tree that was used to save viewstate during the previous request.  For example, when adding controls dynamically, the controls added during a post-back must match the type and position of the controls added during the initial request.
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2012-01-24 16:09:52,277 [SJMDesign-PC2][Thread:23][ERROR] DotNetNuke.UI.Skins.Skin - Unhandled error loading page.
+DotNetNuke.Services.Exceptions.PageLoadException: Unhandled error loading page. ---> System.Web.HttpParseException: Unknown server tag 'relativity:NSLAWNAV'. ---> System.Web.HttpParseException: Unknown server tag 'relativity:NSLAWNAV'. ---> System.Web.HttpException: Unknown server tag 'relativity:NSLAWNAV'.
+   at System.Web.UI.TemplateParser.ProcessError(String message)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Skins.Skin.LoadSkin(PageBase page, String skinPath)
+   --- End of inner exception stack trace ---
+2012-01-24 16:15:04,185 [SJMDesign-PC2][Thread:18][ERROR] DotNetNuke.Common.Utilities.Config - The process cannot access the file 'C:\Nschicklaw.com\Web\Web.config' because it is being used by another process.
+System.IO.IOException: The process cannot access the file 'C:\Nschicklaw.com\Web\Web.config' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at DotNetNuke.Common.Utilities.Config.Save(XmlDocument xmlDoc, String filename)

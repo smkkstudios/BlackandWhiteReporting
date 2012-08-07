@@ -1,0 +1,30 @@
+2012-08-02 16:53:27,322 [SMKKStudios-PC][Thread:17][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that <machineKey> configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: 127.0.0.1
+	Port: 53866
+	Referer: http://localdev.blackandwhitereporting.com/
+	Path: /Default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+	ViewState: Dj4W0ScPQgYh6ccul6UMY+rEg1GRgsqnaQAStSx/+EWGugTx82EoZ2AQJZdQXeuuMtAB2o+JCqdgyZ0DPPxKHRvRDXWewzrcDPYpdbL9PJhUJP0n1WxuZDyHasO02Qfno1+E5+XnjRh1NXzzcPLGorgCw0/jcg7CF1+0GQV4rZLagchBqTfJm/J7WgJ5+oKRGjpHVR89v2rv66FVTeVgQlyuiLvJNK3FP77yHrPJJxoS3FgddEujeaoAcYKHZ+6rd0il+jVS4naWWliD8ItWM47WZ9QyUgQ/YQkd11TzbWM6afp0GVasK2MN+++8XzUSGd75gJ+dE2XXskiJMwfS0eMT3VPNIwCNFnKE8HwOpurtXtLauwMI77zeBdbLLuAfActKA6iHOvtpUpDiSpt6/TsHHVHekV/IZ2AI+yuWAn5HrNvXAJFW3TcvH150roNWvmo7MWlEi5ZfT5pZ2YdxN1JgjE4ceTu6ZXLw6Xl6LOQJK1Z5w0ZXyb9vmm7zK72zwLE3tio7BPXllaJ+BSuevdOpGH5gTp4EkO13UkvC/jhX6tS8C7R2gqzUC5q+l8WPUdnTlNwVbVrDZcPx9+xaJ1gjfIxphtG+cEovKFwmISyBrbn1Z+tZRDxocFEF2TreOpWjYm5fAt73fKf7KoP9BX8p1Qx2CeVMf8kCT6EbyjwIb7214rB7+ppFwT1P6JS+vT6aYABUtQCIjFSp+joAhSWeT5cYsonK2oM9etthqJ3vbigkCEWzhb/YYMCb534c8GCf2vFFNTE4wCMNAiP65fpZvGLjjKXfkzD7...
+   at System.Web.UI.ViewStateException.ThrowMacValidationError(Exception inner, String persistedState)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter formatter, String serializedState)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2012-08-02 16:53:27,521 [SMKKStudios-PC][Thread:17][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=88&error=An unexpected error has occurred&content=0
+System.Web.HttpException (0x80004005): Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that <machineKey> configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: 127.0.0.1
+	Port: 53866
+	Referer: http://localdev.blackandwhitereporting.com/
+	Path: /Default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+	ViewState: Dj4W0ScPQgYh6ccul6UMY+rEg1GRgsqnaQAStSx/+EWGugTx82EoZ2AQJZdQXeuuMtAB2o+JCqdgyZ0DPPxKHRvRDXWewzrcDPYpdbL9PJhUJP0n1WxuZDyHasO02Qfno1+E5+XnjRh1NXzzcPLGorgCw0/jcg7CF1+0GQV4rZLagchBqTfJm/J7WgJ5+oKRGjpHVR89v2rv66FVTeVgQlyuiLvJNK3FP77yHrPJJxoS3FgddEujeaoAcYKHZ+6rd0il+jVS4naWWliD8ItWM47WZ9QyUgQ/YQkd11TzbWM6afp0GVasK2MN+++8XzUSGd75gJ+dE2XXskiJMwfS0eMT3VPNIwCNFnKE8HwOpurtXtLauwMI77zeBdbLLuAfActKA6iHOvtpUpDiSpt6/TsHHVHekV/IZ2AI+yuWAn5HrNvXAJFW3TcvH150roNWvmo7MWlEi5ZfT5pZ2YdxN1JgjE4ceTu6ZXLw6Xl6LOQJK1Z5w0ZXyb9vmm7zK72zwLE3tio7BPXllaJ+BSuevdOpGH5gTp4EkO13UkvC/jhX6tS8C7R2gqzUC5q+l8WPUdnTlNwVbVrDZcPx9+xaJ1gjfIxphtG+cEovKFwmISyBrbn1Z+tZRDxocFEF2TreOpWjYm5fAt73fKf7KoP9BX8p1Qx2CeVMf8kCT6EbyjwIb7214rB7+ppFwT1P6JS+vT6aYABUtQCIjFSp+joAhSWeT5cYsonK2oM9etthqJ3vbigkCEWzhb/YYMCb534c8GCf2vFFNTE4wCMNAiP65fpZvGLjjKXfkzD7...
+   at System.Web.UI.ViewStateException.ThrowMacValidationError(Exception inner, String persistedState)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter formatter, String serializedState)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

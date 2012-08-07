@@ -1,0 +1,25 @@
+<div id="dnn_ctr460_HtmlModule_lblContent" class="Normal">
+	<ul class="footer_nav">
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/our-services">Our Services</a></li>
+    <li><a href="/contact-us">Contact Us</a></li>
+    <li class="logoff"><a href="/logoff.aspx">Log Off</a></li>
+</ul>
+<ul class="footer_addy">
+    <li>279 Sheldon Avenue</li>
+    <li>Staten Island, New York 10312</li>
+    <li><a href="mailto:info@inblackandwhitereporting.com">info@inblackandwhitereporting.com</a></li>
+    <li>&nbsp;</li>
+    <li>&copy; 2012 In Black &amp; White Reporting
+    </li>
+</ul>
+<ul class="footer_questions">
+    <li>
+    <h1>Questions?</h1>
+    </li>
+    <li><span>Tel </span>718.967.1348</li>
+    <li><span>Fax </span>718.504.4176</li>
+</ul>
+<div class="clear"></div>
+</div>

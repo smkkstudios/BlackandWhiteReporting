@@ -1,0 +1,28 @@
+2012-07-16 17:35:19,830 [SMKKStudios-PC][Thread:5][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): The file '/wholesale/wholesalesync.aspx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-07-16 22:39:02,604 [SMKKStudios-PC][Thread:16][ERROR] DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler+CoreScheduler - ReaderWriterLockStrategy.GetWriteLock timed out
+System.ApplicationException: ReaderWriterLockStrategy.GetWriteLock timed out
+   at DotNetNuke.Collections.Internal.ReaderWriterLockStrategy.GetWriteLock(TimeSpan timeout)
+   at DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler.CoreScheduler.RemoveFromScheduleQueue(ScheduleItem scheduleItem)
+2012-07-16 22:39:02,604 [SMKKStudios-PC][Thread:17][ERROR] DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler+CoreScheduler - ReaderWriterLockStrategy.GetWriteLock timed out
+System.ApplicationException: ReaderWriterLockStrategy.GetWriteLock timed out
+   at DotNetNuke.Collections.Internal.ReaderWriterLockStrategy.GetWriteLock(TimeSpan timeout)
+   at DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler.CoreScheduler.RemoveFromScheduleQueue(ScheduleItem scheduleItem)
+2012-07-16 23:32:43,943 [SMKKStudios-PC][Thread:31][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Runtime.InteropServices.SEHException (0x80004005): External component has thrown an exception.
+   at FiftyOne.Foundation.Mobile.Detection.Binary.Reader.ReadHandlerRegexes(BinaryReader reader, List`1 list)
+   at FiftyOne.Foundation.Mobile.Detection.Binary.Reader.ReadHandlers(BinaryReader reader, Provider provider)
+   at FiftyOne.Foundation.Mobile.Detection.Binary.Reader.Add(Provider provider, BinaryReader reader)
+   at FiftyOne.Foundation.Mobile.Detection.Binary.Reader.Create(Stream stream)
+   at FiftyOne.Foundation.Mobile.Detection.Provider.get_EmbeddedProvider()
+   at FiftyOne.Foundation.Mobile.Detection.Factory.get_Instance()
+   at FiftyOne.Foundation.Mobile.Detection.Factory.Create(NameValueCollection headers, IDictionary currentCapabilities)
+   at FiftyOne.Foundation.Mobile.Detection.DetectorModule.OverrideCapabilities(HttpContext context)
+   at FiftyOne.Foundation.Mobile.Detection.DetectorModule.OnBeginRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

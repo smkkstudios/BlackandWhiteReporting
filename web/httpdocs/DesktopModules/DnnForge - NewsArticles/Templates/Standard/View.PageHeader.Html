@@ -1,0 +1,14 @@
+<script type="text/javascript">
+    $(window).load(function () {
+    
+        $(".dsq-comment-footer").each(function () {
+            var contentmove = $(this).children(".dsq-comment-meta").children().children().html();
+            
+            //alert(contentmove);
+            var contentmove = " - " + contentmove;
+            $(this).siblings(".dsq-comment-header").append(contentmove);
+        });
+
+    });
+
+</script>

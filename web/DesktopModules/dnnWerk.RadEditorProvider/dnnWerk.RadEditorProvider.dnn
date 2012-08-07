@@ -1,0 +1,307 @@
+﻿<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="dnnWerk.RadEditorProvider" type="Module" version="1.1.4">
+  <friendlyName>RadEditor Config</friendlyName>
+  <description>A helper module to register and configure the dnnWerk RadEditor Provider</description>
+  <owner>
+    <name>Philipp Becker</name>
+    <organization>dnnWerk</organization>
+    <url>http://www.dnnwerk.de</url>
+    <email>support@dnnwerk.de</email>
+  </owner>
+  <license>
+<![CDATA[
+    <p>
+        Copyright (c) 2010, Philipp Becker<br />
+        All rights reserved.
+    </p>
+    <p>
+        Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+    </p>
+    <ul>
+        <li>Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.</li>
+        <li>Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</li>
+        <li>Neither the name of dnnWerk nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.</li>
+    </ul>
+    <p>
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+    </p>
+	]]>
+  </license>
+  <releaseNotes>
+    <![CDATA[
+    <h2>01.01.04</h2>
+    <ul>
+        <li>UI overhaul of configuration module. Added dropdownlist, checkboxes and numeric inputs to prevent from bad formatted setting values</li>
+        <li>Added inline help for each setting</li>
+    </ul>
+    <h2>01.01.03</h2>
+    <ul>
+        <li>Added a image tester page that can be called from clientside scripts to see if an image exist. This comes in handy when you want to auto fire a lightbox plugin for image thumbs. See <a href="http://radeditor.codeplex.com/wikipage?title=OnClientPasteExample" target="_blank">this wiki</a> page for mor information</li>
+        <li>Updated client script documentation on Codeplex</li>
+    </ul>
+    <h2>01.01.02</h2>
+    <ul>
+        <li>Fixes issues around multiple portal setup and portal link creation</li>
+    </ul>
+    <h2>01.01.01</h2>
+    <ul>
+        <li>Fixes a couple of issues around spellchecking and dialog handling, made changes to the DMX integration</li>
+    </ul>
+    ]]>
+</releaseNotes>
+  <components>
+    <component type="Module">
+      <desktopModule>
+        <moduleName>dnnWerk.RadEditorProvider</moduleName>
+        <foldername>dnnWerk.RadEditorProvider</foldername>
+        <businessControllerClass />
+        <supportedFeatures />
+        <moduleDefinitions>
+          <moduleDefinition>
+            <friendlyName>dnnWerk.RadEditorProvider</friendlyName>
+            <defaultCacheTime>0</defaultCacheTime>
+            <moduleControls>
+              <moduleControl>
+                <controlKey />
+                <controlSrc>DesktopModules/dnnWerk.RadEditorProvider/ProviderConfig.ascx</controlSrc>
+                <supportsPartialRendering>False</supportsPartialRendering>
+                <controlTitle />
+                <controlType>View</controlType>
+                <iconFile />
+                <helpUrl />
+                <viewOrder>0</viewOrder>
+              </moduleControl>
+            </moduleControls>
+          </moduleDefinition>
+        </moduleDefinitions>
+      </desktopModule>
+      <eventMessage>
+        <processorType>DotNetNuke.Entities.Modules.EventMessageProcessor, DotNetNuke</processorType>
+        <processorCommand>UpgradeModule</processorCommand>
+        <attributes>
+            <businessControllerClass>dnnWerk.Providers.RadEditorProvider.UpgradeController, dnnWerk.RadEditorProvider</businessControllerClass>
+            <desktopModuleID>[DESKTOPMODULEID]</desktopModuleID>
+            <upgradeVersionsList>06.00.00</upgradeVersionsList>
+        </attributes>
+      </eventMessage>
+    </component>
+    <component type="Assembly">
+      <assemblies>
+        <basePath>bin</basePath>
+        <assembly>
+          <name>dnnWerk.RadEditorProvider.dll</name>
+        </assembly>
+      </assemblies>
+    </component>
+    <component type="File">
+      <files>
+        <basePath>DesktopModules\dnnWerk.RadEditorProvider</basePath>
+        <file>
+          <name>dnnWerk.RadEditorProvider.dnn</name>
+        </file>
+        <file>
+          <path>RadSpell</path>
+          <name>en-US.tdf</name>
+        </file>
+        <file>
+          <name>SpellCheckHandler.ashx</name>
+        </file>
+        <file>
+          <path>Css</path>
+          <name>EditorOverride.css</name>
+        </file>
+        <file>
+          <name>ProviderConfig.ascx</name>
+        </file>
+        <file>
+          <path>App_LocalResources</path>
+          <name>FileManager.resx</name>
+        </file>        
+        <file>
+          <path>App_LocalResources</path>
+          <name>FileManager.de-DE.resx</name>
+        </file> 
+        <file>
+          <path>App_LocalResources</path>
+          <name>ProviderConfig.ascx.resx</name>
+        </file>        
+        <file>
+          <path>App_LocalResources</path>
+          <name>ProviderConfig.ascx.de-DE.resx</name>
+        </file>                       
+        <file>
+          <path>App_LocalResources</path>
+          <name>RadEditor.Dialogs.resx</name>
+        </file>        
+        <file>
+          <path>App_LocalResources</path>
+          <name>RadEditor.Dialogs.de-DE.resx</name>
+        </file>
+        <file>
+          <path>App_LocalResources</path>
+          <name>RadEditor.Main.resx</name>
+        </file>
+        <file>
+          <path>App_LocalResources</path>
+          <name>RadEditor.Main.de-DE.resx</name>
+        </file>
+        <file>
+          <path>App_LocalResources</path>
+          <name>RadEditor.Modules.resx</name>
+        </file>
+        <file>
+          <path>App_LocalResources</path>
+          <name>RadEditor.Modules.de-DE.resx</name>
+        </file>
+        <file>
+          <path>App_LocalResources</path>
+          <name>RadEditor.Tools.resx</name>
+        </file>
+        <file>
+          <path>App_LocalResources</path>
+          <name>RadEditor.Tools.de-DE.resx</name>
+        </file>
+        <file>
+          <path>App_LocalResources</path>
+          <name>RadSpell.Dialog.resx</name>
+        </file>        
+        <file>
+          <path>App_LocalResources</path>
+          <name>RadSpell.Dialog.de-DE.resx</name>
+        </file>
+        <file>
+          <path>App_LocalResources</path>
+          <name>RadListBox.resx</name>
+        </file>
+        <file>
+          <path>App_LocalResources</path>
+          <name>RadListBox.de-DE.resx</name>
+        </file>        
+        <file>
+          <path>App_LocalResources</path>
+          <name>RadProgressArea.resx</name>
+        </file>
+        <file>
+          <path>App_LocalResources</path>
+          <name>RadProgressArea.de-DE.resx</name>
+        </file>        
+        <file>
+          <path>App_LocalResources</path>
+          <name>RadScheduler.Main.resx</name>
+        </file>
+        <file>
+          <path>App_LocalResources</path>
+          <name>RadScheduler.Main.de-DE.resx</name>
+        </file>        
+        <file>
+          <path>App_LocalResources</path>
+          <name>RadUpload.resx</name>
+        </file>
+        <file>
+          <path>App_LocalResources</path>
+          <name>RadUpload.de-DE.resx</name>
+        </file>        
+        <file>
+          <path>ConfigFile</path>
+          <name>ConfigFile.xml.Original.xml</name>
+        </file>     
+        <file>
+          <path>ConfigFile</path>
+          <name>ConfigFile.xml</name>
+        </file>
+        <file>
+          <name>DialogHandler.aspx</name>
+        </file>
+        <file>
+          <path>ToolsFile</path>
+          <name>ToolsFile.xml.Original.xml</name>
+        </file>      
+        <file>
+          <path>ToolsFile</path>
+          <name>ToolsFile.xml</name>
+        </file>
+        <file>
+          <path>Dialogs</path>
+          <name>RenderTemplate.aspx</name>
+        </file>
+        <file>
+          <name>ImageTester.aspx</name>
+        </file>
+        <file>
+          <path>Dialogs</path>
+          <name>SaveTemplate.aspx</name>
+        </file>
+        <file>
+          <path>js</path>
+          <name>RegisterDialogs.js</name>
+        </file>
+        <file>
+          <path>Dialogs\App_LocalResources</path>
+          <name>SaveTemplate.resx</name>
+        </file>
+        <file>
+          <path>Dialogs\App_LocalResources</path>
+          <name>SaveTemplate.de-DE.resx</name>
+        </file>
+        <file>
+          <path>images</path>
+          <name>SaveTemplate.gif</name>
+        </file>
+        <file>
+          <path>images</path>
+          <name>DMXManager.gif</name>
+        </file>
+        <file>
+          <path>images</path>
+          <name>attachment.png</name>
+        </file>
+        <file>
+          <path>images</path>
+          <name>save.png</name>
+        </file>
+        <file>
+          <path>images</path>
+          <name>templates.png</name>
+        </file>                        
+        <file>
+          <path>images</path>
+          <name>help.png</name>
+        </file>
+        <file>
+          <path>images</path>
+          <name>radeditor_config_large.png</name>
+        </file>
+        <file>
+          <path>images</path>
+          <name>radeditor_config_small.png</name>
+        </file>
+      </files>
+    </component>
+          <component type="Config">
+              <config>
+                  <configFile>web.config</configFile>
+                  <install>
+                      <configuration>
+                          <nodes>
+                              <node path="/configuration/dotnetnuke/htmlEditor/providers" action="update" key="name" collision="overwrite">
+                                  <add name="dnnWerk.RadEditorProvider"
+                                       type="dnnWerk.Providers.RadEditorProvider.EditorProvider, dnnWerk.RadEditorProvider"
+                                       providerPath="~/DesktopModules/dnnWerk.RadEditorProvider" />
+                              </node>
+                          </nodes>
+                      </configuration>
+                  </install>
+                  <uninstall>
+                      <configuration>
+                          <nodes>
+                              <node path="/configuration/dotnetnuke/htmlEditor/providers/add[@name='dnnWerk.RadEditorProvider']" action="remove" />
+                          </nodes>
+                      </configuration>
+                  </uninstall>
+              </config>
+          </component>
+  </components>
+</package>
+  </packages>
+</dotnetnuke>

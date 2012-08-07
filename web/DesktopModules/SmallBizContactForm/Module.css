@@ -1,0 +1,35 @@
+﻿/*div.contact-form div.field-row {clear:both; margin-bottom:5px;}
+
+div.contact-form span.required {color:Red;}
+
+div.contact-form span.label {width:125px; text-align:right; float:left; margin-right:5px;}
+
+div.contact-form .field {width:350px;}
+
+div.contact-form .validator {font-size:8pt;}
+
+div.contact-form textarea.field {height:100px;}
+
+div.contact-form a.submit {display:block; margin-left:auto; margin-right:auto; text-align:center;}*/
+
+
+.contact-form h2{margin:25px 0 10px;color:#29abe2; font-size:15px; font-weight:500;}
+div.contact-form .radioOptions td{padding-bottom:20px;}
+.radioOptions label{color:#808080; font-size:16px; padding-left:15px;}
+div.contact-form span.label {display:block;font-size:14px; color:#808080;}
+div.contact-form .requiredMessage{font-size:12px; color:#808080;}
+div.contact-form .AdditionalInfoMessage{font-size:15px; color:#29abe2; font-weight:500;margin:0px 0 15px; display:block;}
+div.contact-form .field-row{display:inline-block;}
+div.contact-form .field {width:270px; height:16px; margin-bottom:10px; border:1px solid #ccc; font-size:13px;font-family:Myriad Pro; padding:1px;}
+div.contact-form .field.txtZip  {height:16px;width:120px; padding:1px;margin-right:12px;}
+div.contact-form textarea.field {height:150px;width:570px; padding:5px;}
+div.contact-form span.required {color:Red;  }
+div.contact-form span.validator {color:Red; }
+div.contact-form .button_wrapper{margin-left:15px;}
+div.contact-form .relativity_button{margin-top:5px;  text-align:center;font-size:12px;font-weight:700;color:#7a7a7a;}
+div.contact-form .btn{ vertical-align:middle; display:inline-block; height:32px; overflow:hidden;width:119px;background:transparent url(/Portals/_default/Skins/Nschicklaw/Images/ContactUs/submit.png) no-repeat 0 0;}
+div.contact-form .btn:hover{ background-position:0 -32px;}
+div.contact-form table,div.contact-form td{padding:0; margin:0; border:none; width:400px; }
+div.contact-form td{width:275px;}
+.btn:hover{text-decoration:none;}
+div.contact-form .lightText{color : #9B9B9B; font-style:italic; font-family:Myriad Pro; font-weight:600;}

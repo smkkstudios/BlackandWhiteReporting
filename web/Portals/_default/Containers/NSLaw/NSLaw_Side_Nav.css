@@ -1,0 +1,40 @@
+
+.nslaw_sideNav .DNNModuleContent ul{padding:0;margin:0;}
+.nslaw_sideNav .DNNModuleContent li{ list-style: none;width:290px;margin-right:10px;height:60px;}
+.nslaw_sideNav .DNNModuleContent li:hover { }
+.nslaw_sideNav .DNNModuleContent li:hover a{color:#bbc322;}
+.nslaw_sideNav .DNNModuleContent li a{display:block;height:20px;width:280px;font-size:17px;border-bottom:1px solid #929497;  font-weight:500; color:#29abe2; vertical-align:middle;padding:20px 0;}
+.nslaw_sideNav .DNNModuleContent li.contact_nav a{padding:10px 0 30px;}
+.nslaw_sideNav .DNNModuleContent li a:hover{ text-decoration:none;}
+ .Topics{margin-top:20px;}
+.nslaw_sideNav .DNNModuleContent .doubleline a{padding:9px 0 30px;border-top:1px solid #929497;}
+.nslaw_sideNav .DNNModuleContent .topline a{border-top:1px solid #929497;padding:19px 0 20px;}
+.loggedIn,.loginName{color:#808080; font-size:16px;text-align:center;}
+.loginName{font-size:20px;}
+.login_container{display:none;}
+.smakk-page-employer_advocacy .login_container{display:block;}
+/*########## Page Selected Behavior ##########*/
+.smakk-content-employer_advocacy .nslaw_sideNav .about_nav,
+.smakk-content-training_n_speaking .nslaw_sideNav .about_nav,
+.smakk-content-events  .nslaw_sideNav .counseling_nav,
+.smakk-content-about .nslaw_sideNav .about_nav,
+.smakk-content-resources .nslaw_sideNav .resources_nav,
+.smakk-content-contact .nslaw_sideNav .maincontact_nav,
+.smakk-content-small_business .nslaw_sideNav .about_nav,
+.smakk-content-services .nslaw_sideNav .services_nav,
+.smakk-content-blog .nslaw_sideNav .blog_nav ,
+.smakk-content-contact .nslaw_sideNav .contact_nav{ background:transparent url(images/listNavSelected.png) no-repeat scroll 274px 0;}
+
+.smakk-content-services .nslaw_sideNav .services_nav a,
+.smakk-content-training_n_speaking .nslaw_sideNav .about_nav a,
+.smakk-content-small_business .nslaw_sideNav .about_nav a,
+.smakk-content-events  .nslaw_sideNav .counseling_nav a,
+.smakk-content-about .nslaw_sideNav .about_nav a, 
+.smakk-content-resources .nslaw_sideNav .resources_nav a,
+.smakk-content-contact .nslaw_sideNav .maincontact_nav a,
+.smakk-content-blog .nslaw_sideNav .blog_nav a,
+.smakk-content-contact .nslaw_sideNav .contact_nav a,
+.smakk-content-employer_advocacy .nslaw_sideNav .about_nav a{color:#bbc322;}
+
+.smakk-page-employer_advocacy #smakk-content-wrapper .nslaw_sideNav .login_container{ padding-bottom:20px;border-bottom:1px solid #929497; width:280px;}
+.smakk-page-employer_advocacy .smakk-content-resources .nslaw_sideNav .loged_container{width:290px;background:transparent url(images/loggedInbar.png) no-repeat scroll right 0;}

@@ -1,0 +1,15 @@
+2012-02-01 14:14:55,923 [ip-0AD07651][Thread:19][ERROR] DotNetNuke.Providers.RadEditorProvider.LinkClickUrlHandler - Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DotNetNuke.Providers.RadEditorProvider.LinkClickUrlHandler.HandleRequest()
+2012-02-01 14:18:21,273 [ip-0AD07651][Thread:18][ERROR] DotNetNuke.Providers.RadEditorProvider.LinkClickUrlHandler - Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DotNetNuke.Providers.RadEditorProvider.LinkClickUrlHandler.HandleRequest()
+2012-02-01 15:31:24,429 [ip-0AD07651][Thread:31][ERROR] DotNetNuke.Providers.RadEditorProvider.LinkClickUrlHandler - Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DotNetNuke.Providers.RadEditorProvider.LinkClickUrlHandler.HandleRequest()
+2012-02-01 15:32:04,915 [ip-0AD07651][Thread:24][ERROR] DotNetNuke.Providers.RadEditorProvider.LinkClickUrlHandler - Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DotNetNuke.Providers.RadEditorProvider.LinkClickUrlHandler.HandleRequest()
+2012-02-01 15:35:46,578 [ip-0AD07651][Thread:32][ERROR] DotNetNuke.Providers.RadEditorProvider.LinkClickUrlHandler - Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DotNetNuke.Providers.RadEditorProvider.LinkClickUrlHandler.HandleRequest()

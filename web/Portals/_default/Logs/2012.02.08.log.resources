@@ -1,0 +1,96 @@
+2012-02-08 17:43:23,684 [ip-0AD07651][Thread:16][ERROR] DotNetNuke.Common.Utilities.DataCache - The relative virtual path 'controls/app_localresources/help.ascx.portal-0.resx' is not allowed here.
+System.ArgumentException: The relative virtual path 'controls/app_localresources/help.ascx.portal-0.resx' is not allowed here.
+   at System.Web.VirtualPath.FailIfRelativePath()
+   at System.Web.Hosting.HostingEnvironment.MapPathActual(VirtualPath virtualPath, Boolean permitNull)
+   at System.Web.Hosting.HostingEnvironment.MapPathInternal(VirtualPath virtualPath)
+   at System.Web.Hosting.HostingEnvironment.MapPath(VirtualPath virtualPath)
+   at DotNetNuke.Services.Localization.Localization.GetResourceFileCallBack(CacheItemArgs cacheItemArgs)
+   at DotNetNuke.Common.Utilities.DataCache.GetCachedDataFromDictionary(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired)
+2012-02-08 17:43:23,731 [ip-0AD07651][Thread:16][ERROR] DotNetNuke.Common.Utilities.DataCache - The relative virtual path 'controls/app_localresources/help.ascx.host.resx' is not allowed here.
+System.ArgumentException: The relative virtual path 'controls/app_localresources/help.ascx.host.resx' is not allowed here.
+   at System.Web.VirtualPath.FailIfRelativePath()
+   at System.Web.Hosting.HostingEnvironment.MapPathActual(VirtualPath virtualPath, Boolean permitNull)
+   at System.Web.Hosting.HostingEnvironment.MapPathInternal(VirtualPath virtualPath)
+   at System.Web.Hosting.HostingEnvironment.MapPath(VirtualPath virtualPath)
+   at DotNetNuke.Services.Localization.Localization.GetResourceFileCallBack(CacheItemArgs cacheItemArgs)
+   at DotNetNuke.Common.Utilities.DataCache.GetCachedDataFromDictionary(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired)
+2012-02-08 17:43:23,731 [ip-0AD07651][Thread:16][ERROR] DotNetNuke.Common.Utilities.DataCache - The relative virtual path 'controls/app_localresources/help.ascx.resx' is not allowed here.
+System.ArgumentException: The relative virtual path 'controls/app_localresources/help.ascx.resx' is not allowed here.
+   at System.Web.VirtualPath.FailIfRelativePath()
+   at System.Web.Hosting.HostingEnvironment.MapPathActual(VirtualPath virtualPath, Boolean permitNull)
+   at System.Web.Hosting.HostingEnvironment.MapPathInternal(VirtualPath virtualPath)
+   at System.Web.Hosting.HostingEnvironment.MapPath(VirtualPath virtualPath)
+   at DotNetNuke.Services.Localization.Localization.GetResourceFileCallBack(CacheItemArgs cacheItemArgs)
+   at DotNetNuke.Common.Utilities.DataCache.GetCachedDataFromDictionary(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired)
+2012-02-08 17:43:23,731 [ip-0AD07651][Thread:16][ERROR] DotNetNuke.Common.Utilities.DataCache - The relative virtual path 'controls/app_localresources/sharedresources.portal-0.resx' is not allowed here.
+System.ArgumentException: The relative virtual path 'controls/app_localresources/sharedresources.portal-0.resx' is not allowed here.
+   at System.Web.VirtualPath.FailIfRelativePath()
+   at System.Web.Hosting.HostingEnvironment.MapPathActual(VirtualPath virtualPath, Boolean permitNull)
+   at System.Web.Hosting.HostingEnvironment.MapPathInternal(VirtualPath virtualPath)
+   at System.Web.Hosting.HostingEnvironment.MapPath(VirtualPath virtualPath)
+   at DotNetNuke.Services.Localization.Localization.GetResourceFileCallBack(CacheItemArgs cacheItemArgs)
+   at DotNetNuke.Common.Utilities.DataCache.GetCachedDataFromDictionary(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired)
+2012-02-08 17:43:23,747 [ip-0AD07651][Thread:16][ERROR] DotNetNuke.Common.Utilities.DataCache - The relative virtual path 'controls/app_localresources/sharedresources.host.resx' is not allowed here.
+System.ArgumentException: The relative virtual path 'controls/app_localresources/sharedresources.host.resx' is not allowed here.
+   at System.Web.VirtualPath.FailIfRelativePath()
+   at System.Web.Hosting.HostingEnvironment.MapPathActual(VirtualPath virtualPath, Boolean permitNull)
+   at System.Web.Hosting.HostingEnvironment.MapPathInternal(VirtualPath virtualPath)
+   at System.Web.Hosting.HostingEnvironment.MapPath(VirtualPath virtualPath)
+   at DotNetNuke.Services.Localization.Localization.GetResourceFileCallBack(CacheItemArgs cacheItemArgs)
+   at DotNetNuke.Common.Utilities.DataCache.GetCachedDataFromDictionary(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired)
+2012-02-08 17:43:23,747 [ip-0AD07651][Thread:16][ERROR] DotNetNuke.Common.Utilities.DataCache - The relative virtual path 'controls/app_localresources/sharedresources.resx' is not allowed here.
+System.ArgumentException: The relative virtual path 'controls/app_localresources/sharedresources.resx' is not allowed here.
+   at System.Web.VirtualPath.FailIfRelativePath()
+   at System.Web.Hosting.HostingEnvironment.MapPathActual(VirtualPath virtualPath, Boolean permitNull)
+   at System.Web.Hosting.HostingEnvironment.MapPathInternal(VirtualPath virtualPath)
+   at System.Web.Hosting.HostingEnvironment.MapPath(VirtualPath virtualPath)
+   at DotNetNuke.Services.Localization.Localization.GetResourceFileCallBack(CacheItemArgs cacheItemArgs)
+   at DotNetNuke.Common.Utilities.DataCache.GetCachedDataFromDictionary(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired)
+2012-02-08 18:07:22,793 [ip-0AD07651][Thread:19][ERROR] DotNetNuke.Common.Utilities.DataCache - The relative virtual path 'controls/app_localresources/help.ascx.portal-0.resx' is not allowed here.
+System.ArgumentException: The relative virtual path 'controls/app_localresources/help.ascx.portal-0.resx' is not allowed here.
+   at System.Web.VirtualPath.FailIfRelativePath()
+   at System.Web.Hosting.HostingEnvironment.MapPathActual(VirtualPath virtualPath, Boolean permitNull)
+   at System.Web.Hosting.HostingEnvironment.MapPathInternal(VirtualPath virtualPath)
+   at System.Web.Hosting.HostingEnvironment.MapPath(VirtualPath virtualPath)
+   at DotNetNuke.Services.Localization.Localization.GetResourceFileCallBack(CacheItemArgs cacheItemArgs)
+   at DotNetNuke.Common.Utilities.DataCache.GetCachedDataFromDictionary(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired)
+2012-02-08 18:07:22,793 [ip-0AD07651][Thread:19][ERROR] DotNetNuke.Common.Utilities.DataCache - The relative virtual path 'controls/app_localresources/help.ascx.host.resx' is not allowed here.
+System.ArgumentException: The relative virtual path 'controls/app_localresources/help.ascx.host.resx' is not allowed here.
+   at System.Web.VirtualPath.FailIfRelativePath()
+   at System.Web.Hosting.HostingEnvironment.MapPathActual(VirtualPath virtualPath, Boolean permitNull)
+   at System.Web.Hosting.HostingEnvironment.MapPathInternal(VirtualPath virtualPath)
+   at System.Web.Hosting.HostingEnvironment.MapPath(VirtualPath virtualPath)
+   at DotNetNuke.Services.Localization.Localization.GetResourceFileCallBack(CacheItemArgs cacheItemArgs)
+   at DotNetNuke.Common.Utilities.DataCache.GetCachedDataFromDictionary(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired)
+2012-02-08 18:07:22,824 [ip-0AD07651][Thread:19][ERROR] DotNetNuke.Common.Utilities.DataCache - The relative virtual path 'controls/app_localresources/help.ascx.resx' is not allowed here.
+System.ArgumentException: The relative virtual path 'controls/app_localresources/help.ascx.resx' is not allowed here.
+   at System.Web.VirtualPath.FailIfRelativePath()
+   at System.Web.Hosting.HostingEnvironment.MapPathActual(VirtualPath virtualPath, Boolean permitNull)
+   at System.Web.Hosting.HostingEnvironment.MapPathInternal(VirtualPath virtualPath)
+   at System.Web.Hosting.HostingEnvironment.MapPath(VirtualPath virtualPath)
+   at DotNetNuke.Services.Localization.Localization.GetResourceFileCallBack(CacheItemArgs cacheItemArgs)
+   at DotNetNuke.Common.Utilities.DataCache.GetCachedDataFromDictionary(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired)
+2012-02-08 18:07:22,824 [ip-0AD07651][Thread:19][ERROR] DotNetNuke.Common.Utilities.DataCache - The relative virtual path 'controls/app_localresources/sharedresources.portal-0.resx' is not allowed here.
+System.ArgumentException: The relative virtual path 'controls/app_localresources/sharedresources.portal-0.resx' is not allowed here.
+   at System.Web.VirtualPath.FailIfRelativePath()
+   at System.Web.Hosting.HostingEnvironment.MapPathActual(VirtualPath virtualPath, Boolean permitNull)
+   at System.Web.Hosting.HostingEnvironment.MapPathInternal(VirtualPath virtualPath)
+   at System.Web.Hosting.HostingEnvironment.MapPath(VirtualPath virtualPath)
+   at DotNetNuke.Services.Localization.Localization.GetResourceFileCallBack(CacheItemArgs cacheItemArgs)
+   at DotNetNuke.Common.Utilities.DataCache.GetCachedDataFromDictionary(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired)
+2012-02-08 18:07:22,824 [ip-0AD07651][Thread:19][ERROR] DotNetNuke.Common.Utilities.DataCache - The relative virtual path 'controls/app_localresources/sharedresources.host.resx' is not allowed here.
+System.ArgumentException: The relative virtual path 'controls/app_localresources/sharedresources.host.resx' is not allowed here.
+   at System.Web.VirtualPath.FailIfRelativePath()
+   at System.Web.Hosting.HostingEnvironment.MapPathActual(VirtualPath virtualPath, Boolean permitNull)
+   at System.Web.Hosting.HostingEnvironment.MapPathInternal(VirtualPath virtualPath)
+   at System.Web.Hosting.HostingEnvironment.MapPath(VirtualPath virtualPath)
+   at DotNetNuke.Services.Localization.Localization.GetResourceFileCallBack(CacheItemArgs cacheItemArgs)
+   at DotNetNuke.Common.Utilities.DataCache.GetCachedDataFromDictionary(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired)
+2012-02-08 18:07:22,824 [ip-0AD07651][Thread:19][ERROR] DotNetNuke.Common.Utilities.DataCache - The relative virtual path 'controls/app_localresources/sharedresources.resx' is not allowed here.
+System.ArgumentException: The relative virtual path 'controls/app_localresources/sharedresources.resx' is not allowed here.
+   at System.Web.VirtualPath.FailIfRelativePath()
+   at System.Web.Hosting.HostingEnvironment.MapPathActual(VirtualPath virtualPath, Boolean permitNull)
+   at System.Web.Hosting.HostingEnvironment.MapPathInternal(VirtualPath virtualPath)
+   at System.Web.Hosting.HostingEnvironment.MapPath(VirtualPath virtualPath)
+   at DotNetNuke.Services.Localization.Localization.GetResourceFileCallBack(CacheItemArgs cacheItemArgs)
+   at DotNetNuke.Common.Utilities.DataCache.GetCachedDataFromDictionary(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired)

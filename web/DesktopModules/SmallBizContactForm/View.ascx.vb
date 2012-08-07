@@ -1,0 +1,103 @@
+Imports DotNetNuke
+Imports System.Web.UI
+Imports DotNetNuke.Services.Mail
+Imports DotNetNuke.Entities.Modules
+Imports DotNetNuke.UI.Skins
+Imports System.Net.Mail
+Imports System.Net
+Imports DotNetNuke.Entities.Host
+
+
+Namespace Modules.ContactForm
+
+    ''' -----------------------------------------------------------------------------
+    ''' <summary>
+    ''' The View class displays the content
+    ''' </summary>
+    ''' <remarks>
+    ''' </remarks>
+    ''' <history>
+    ''' </history>
+    ''' ----------------------------------------------------------------------------
+    Partial Class View
+        Inherits Entities.Modules.PortalModuleBase
+
+
+#Region "Event Handlers"
+
+        'Protected Sub Page_Init(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Init
+        '    Try
+        '    Catch exc As Exception
+        '        ProcessModuleLoadException(Me, exc)
+        '    End Try
+        'End Sub
+
+
+        ''' -----------------------------------------------------------------------------
+        ''' <summary>
+        ''' Page_Load runs when the control is loaded
+        ''' </summary>
+        ''' <remarks>
+        ''' </remarks>
+        ''' <history>
+        ''' </history>
+        ''' -----------------------------------------------------------------------------
+        Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        End Sub
+
+
+#End Region
+
+        Protected Sub btnSubmit_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnSubmit.Click
+            Try
+
+                Dim subject As String = Settings("subject")
+                Dim message As String = ""
+                Dim [to] As String = Settings("to")
+                Dim from As String = Settings("from")
+                Dim replyTo As String = String.Format("{0}, <{1}>", txtName.Text, txtEmail.Text)
+
+                message &= String.Format("First Name: {0}" & vbCrLf, txtName.Text)
+                message &= String.Format("Last Name: {0}" & vbCrLf, txtLName.Text)
+                message &= String.Format("Company: {0}" & vbCrLf, txtCompany.Text)
+                message &= String.Format("Title: {0}" & vbCrLf, txtTitle.Text)
+                message &= String.Format("Email: {0}" & vbCrLf, txtEmail.Text)
+                message &= String.Format("Phone: {0:###-###-####}" & vbCrLf, txtPhone.Text)
+                message &= String.Format("Address: {0}" & vbCrLf, txtAddy.Text)
+                message &= String.Format("{0}" & vbCrLf, txtAddy2.Text)
+                message &= String.Format("City: {0}" & vbCrLf, txtCity.Text)
+                message &= String.Format("State: {0}" & vbCrLf, ddlState.SelectedValue.ToString)
+                message &= String.Format("Zip Code: {0}" & vbCrLf, txtZip.Text)
+                message &= String.Format("Reason for Contact: {0}" & vbCrLf, radioOptions.SelectedValue)
+                message &= String.Format("Message: {0}" & vbCrLf, txtMessage.Text)
+
+                'Dim err As String = Mail.SendMail(from, [to], "", "", replyTo, MailPriority.Normal, subject, MailFormat.Text, System.Text.Encoding.UTF8, message, Nothing, "", "", "", "", False)
+                'If err = "" Then
+                'Else
+                '    Response.Write(err)
+                'End If
+
+                Dim email As New MailMessage(from, [to])
+                email.ReplyTo = New MailAddress(replyTo)
+                email.Subject = subject
+                email.BodyEncoding = System.Text.Encoding.UTF8
+                email.Body = message
+                email.IsBodyHtml = False
+                Dim client As New SmtpClient("smtp.googlemail.com")
+                client.Port = 587
+                client.EnableSsl = True
+                If Host.SMTPAuthentication <> "SMTPAnonymous" Then
+                    client.Credentials = New NetworkCredential(Host.SMTPUsername, Host.SMTPPassword)
+                End If
+                client.Send(email)
+
+                Response.Redirect(Settings("responsePageURL"))
+            Catch exc As Exception
+                ProcessModuleLoadException(Me, exc)
+            End Try
+        End Sub
+    End Class
+
+
+
+End Namespace

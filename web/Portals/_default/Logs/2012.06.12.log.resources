@@ -1,0 +1,33 @@
+2012-06-12 10:03:11,028 [SMKKStudios-PC][Thread:6][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that <machineKey> configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: 127.0.0.1
+	Port: 58099
+	Referer: http://blog.waggo.com/Home/tabid/88/ctl/SiteTemplates/mid/448/Default.aspx
+	Path: /Default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:13.0) Gecko/20100101 Firefox/13.0
+	ViewState: YAe0kwlpubAYvqdmDAI2PDhJgpu03cyoq1d+ulpOPQGZMCwJnlLjFLSyV86D5k7+ai7hyHYNntcLRXGliRZsDi1OoHdsVh7538PduszpqdqWj07H7KBEXjurTDJ7yAu9KKy4DzpBT2z3ZrOXte10ybliavFVN/Rxy/JnOg2sZmXu6jr2H6aC0sQ123tdW6ZdV8aj8YEoBjptZ6c2hQYMShiW8eJuzwBXTjQIVDyu0H7UtLzwMK4/qZmAPSqnWeHqHzm2tQvgseEPleB5Y258rZutkBfDBfcLy2QuBYxpPAlDdcbJh7AplGb1PHyFRkPV1gl1RHqGTG9KuUGD27TB3ZEwWp/u7IRpKG+B+PQCI0JMS+ToLtIRfBLa53ahFQ/cTI1/gh60fJa5pXjFDlQjsvrDYy3lv2fE28sOQsppIa7j9E0UY/0YnFwvMwEBJWuNWG4TzxS3F5ZKBtpJOE+Xxzo6F9+GVor2L6jz15Q6a+TwP6BE1snY0v6ZZNXWKt2XQYfC8/N2+hflACc8ier9kXc3GqNV1LqshK9VgnJnX5/e37WSEhcTEe/Bngz3O+gf65Iip19DMVK27DBC6j6JdqDs/hlI96SJRs6LuRjDIWr5NHcmHgnZidtEAPE+isWLaYBd89LiJmcQibRnFzbWdrZVDCYM8sgbGVaDKXHLrsHnStwUpLzXoy68XSQ1ZZHB5tqHoKPHgUyD4aW1s64BOB38UrXu8Ktt22Nd+yQMXOcJThNLXA0fARwJF//SLXBVcueISC4...
+   at System.Web.UI.ViewStateException.ThrowMacValidationError(Exception inner, String persistedState)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter formatter, String serializedState)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2012-06-12 10:03:11,079 [SMKKStudios-PC][Thread:6][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=88&error=An unexpected error has occurred
+System.Web.HttpException (0x80004005): Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that <machineKey> configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: 127.0.0.1
+	Port: 58099
+	Referer: http://blog.waggo.com/Home/tabid/88/ctl/SiteTemplates/mid/448/Default.aspx
+	Path: /Default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:13.0) Gecko/20100101 Firefox/13.0
+	ViewState: YAe0kwlpubAYvqdmDAI2PDhJgpu03cyoq1d+ulpOPQGZMCwJnlLjFLSyV86D5k7+ai7hyHYNntcLRXGliRZsDi1OoHdsVh7538PduszpqdqWj07H7KBEXjurTDJ7yAu9KKy4DzpBT2z3ZrOXte10ybliavFVN/Rxy/JnOg2sZmXu6jr2H6aC0sQ123tdW6ZdV8aj8YEoBjptZ6c2hQYMShiW8eJuzwBXTjQIVDyu0H7UtLzwMK4/qZmAPSqnWeHqHzm2tQvgseEPleB5Y258rZutkBfDBfcLy2QuBYxpPAlDdcbJh7AplGb1PHyFRkPV1gl1RHqGTG9KuUGD27TB3ZEwWp/u7IRpKG+B+PQCI0JMS+ToLtIRfBLa53ahFQ/cTI1/gh60fJa5pXjFDlQjsvrDYy3lv2fE28sOQsppIa7j9E0UY/0YnFwvMwEBJWuNWG4TzxS3F5ZKBtpJOE+Xxzo6F9+GVor2L6jz15Q6a+TwP6BE1snY0v6ZZNXWKt2XQYfC8/N2+hflACc8ier9kXc3GqNV1LqshK9VgnJnX5/e37WSEhcTEe/Bngz3O+gf65Iip19DMVK27DBC6j6JdqDs/hlI96SJRs6LuRjDIWr5NHcmHgnZidtEAPE+isWLaYBd89LiJmcQibRnFzbWdrZVDCYM8sgbGVaDKXHLrsHnStwUpLzXoy68XSQ1ZZHB5tqHoKPHgUyD4aW1s64BOB38UrXu8Ktt22Nd+yQMXOcJThNLXA0fARwJF//SLXBVcueISC4...
+   at System.Web.UI.ViewStateException.ThrowMacValidationError(Exception inner, String persistedState)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter formatter, String serializedState)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2012-06-12 13:59:17,916 [SMKKStudios-PC][Thread:VsCBMThreadPool][ERROR] DotNetNuke.Web.UI.Utilities - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.UI.Utilities.ApplySkin(Control telerikControl, String fallBackEmbeddedSkinName, String controlName, String webControlSkinSubFolderName)
